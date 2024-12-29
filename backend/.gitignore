@@ -1,0 +1,77 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build output
+dist/
+build/
+out/
+*.out
+
+# Dependency directories
+bower_components/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Coverage
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test output
+jest-html-reporters-*.html
+.nyc_output/
+test-results/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Git
+*.patch
+*.diff
+.git/ignore
+
+# Miscellaneous
+*.lock
+*.tgz
+*.gz
+*.gzip
+*.zip
+
+# Python (if applicable)
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Other files
+*.bak
+*.old
