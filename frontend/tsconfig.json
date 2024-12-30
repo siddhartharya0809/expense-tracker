@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "es6",
-        "module": "commonjs",
+        "module": "ESNext",
         "baseUrl": ".",
         "paths": {
             "@/*": [
@@ -9,7 +9,11 @@
             ]
         },
         "strict": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react-jsx",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
     },
     "include": [
         "src/**/*"
