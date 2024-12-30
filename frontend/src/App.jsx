@@ -1,12 +1,8 @@
-import "./App.css";
-import TestFile from "./components/TestFile";
+import { useState } from "preact/hooks";
+import "./app.css";
 
-function App() {
-  return (
-    <div>
-      <TestFile />
-    </div>
-  );
+export function App() {
+  const [count, setCount] = useState(0);
+
+  return <div>Helloww</div>;
 }
-
-export default App;
